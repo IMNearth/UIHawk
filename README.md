@@ -64,3 +64,23 @@ UI-Hawk is a bilingual model with advanced screen understanding capabilities and
 | **UI-Hawk**      | 88.2     | 70.9            | 66.8         | 82.4      | 81.4       | 80.1           | 79.4        | 76.3         |
 
 <p align="left"> Table 2: Sequential navigation performance on GUI-Odyssey+ dataset. </p>
+
+
+
+## Citation
+
+If you find our work helpful, please consider citing our paper.
+
+```
+@article{202408.2137,
+    title = {UI-Hawk: Unleashing the Screen Stream Understanding for GUI Agents},
+    author = {Jiwen Zhang and Yaqi Yu and Minghui Liao and Wentao Li and Jihao Wu and Zhongyu Wei},
+    doi = {10.20944/preprints202408.2137.v1},
+    url = {https://doi.org/10.20944/preprints202408.2137.v1},
+    year = 2024,
+    month = {August},
+    publisher = {Preprints},
+    journal = {Preprints}
+}
+```
+
