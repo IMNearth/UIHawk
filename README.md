@@ -27,14 +27,12 @@ This work presents **UI-Hawk**, a visual GUI agent specially designed to process
 
 ## 📣 Update
 
-- **[2024-08-30]** We have our paper online, you can access the [preprint](https://www.preprints.org/manuscript/202408.2137/v1) or directly get the PDF by clicking [here](https://github.com/IMNearth/UIHawk/tree/main/assets/UIHawk_preprint.pdf) !
+- **[2024-08-30]** We have our paper online, you can access the [preprint](https://www.preprints.org/manuscript/202408.2137/v1) or directly get the PDF at [here](https://github.com/IMNearth/UIHawk/tree/main/assets/UIHawk_preprint.pdf) !
 
 
 ## Model Architecture
 
-UI-Hawk is a MLLM-based GUI agent equipped with screen stream understanding capabilities. It is built upon [TextHawk](https://github.com/yuyq96/TextHawk).
-
-To harness the screen sequences, UI-Hawk incorporates a history-aware visual encoder, which explicitly models the temporal dependencies of images via scalable position embeddings. We utilize an efficient resampler with a compression ratio of 16, enabling UI-Hawk to handle multiple steps of history screens. This meticulous architecture design empowers UI-Hawk to effectively perceive the fine-grained details involved in the entire navigation process.
+UI-Hawk is a MLLM-based GUI agent equipped with screen stream understanding capabilities. It is built upon [TextHawk](https://github.com/yuyq96/TextHawk). To harness the screen sequences, UI-Hawk incorporates a history-aware visual encoder, which explicitly models the temporal dependencies of images via scalable position embeddings. We utilize an efficient resampler with a compression ratio of 16, enabling UI-Hawk to handle multiple steps of history screens. This meticulous architecture design empowers UI-Hawk to effectively perceive the fine-grained details involved in the entire navigation process.
 
 <div align="center">
     <img src=assets/uihawk_arch.png width=80% />
@@ -42,9 +40,7 @@ To harness the screen sequences, UI-Hawk incorporates a history-aware visual enc
 
 ## FunUI Benchmark
 
-We introduce **FunUI**, a bilingual evaluation benchmark to evaluate the fundamental screen understanding capabilities of MLLMs.
-
-Concretely, FunUI enjoys the following three characteristics:
+We introduce **FunUI**, a bilingual evaluation benchmark to evaluate the fundamental screen understanding capabilities of MLLMs. Concretely, FunUI enjoys the following three characteristics:
 
 * ***Bilingual***: FunUI comprises of 2150 Chinese screens and 9347 English screens from Android devices, annotated with 14k and 18k samples, respectively. 
 * ***Comprehensive***: FunUI includes different evaluation dimensions of screen understanding, including UI grounding and UI referring tasks to access the regional location and identification abilities of models, together with screen question answering and screen summarization tasks that require more integrated analysis of screen contents.
