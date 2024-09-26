@@ -10,7 +10,6 @@
  </strong></p>
 <p align="center"><sup>1</sup>Fudan University  <sup>2</sup>Huawei Inc.</p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Licence-Apache_2.0-Green" />
     <a href="https://github.com/IMNearth/UIHawk/tree/main/assets/UIHawk_preprint.pdf"><img src="https://img.shields.io/badge/Paper-PDF-red" /></a>
     <a href="https://www.preprints.org/manuscript/202408.2137/v1"><img src="https://img.shields.io/badge/Paper-Preprint-blue" /></a>
 </p>
