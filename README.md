@@ -10,22 +10,26 @@
  </strong></p>
 <p align="center"><sup>1</sup>Fudan University  <sup>2</sup>Huawei Inc.</p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Licence-Apache_2.0-Green" />
     <a href="https://github.com/IMNearth/UIHawk/tree/main/assets/UIHawk_preprint.pdf"><img src="https://img.shields.io/badge/Paper-PDF-red" /></a>
     <a href="https://www.preprints.org/manuscript/202408.2137/v1"><img src="https://img.shields.io/badge/Paper-Preprint-blue" /></a>
+    <img src="https://img.shields.io/github/stars/IMNearth/UIHawk?label=Stars" />
+    <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FIMNearth%2FUIHawk&count_bg=%2319D5DB&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 </p>
 
 --------------
 
-This work presents **UI-Hawk**, a visual GUI agent specially designed to processing *screen streams* encountered during GUI navigation. UI-Hawk incorporates a history-aware visual encoder and an efficient resampler to handle the screen sequences. To acquire a better understanding of screen streams, we define four fundamental tasks—UI grounding, UI referring, screen question answering, and screen summarization. We develop an automated data curation method to generate the corresponding training data for UI-Hawk. Along with the efforts above, we have also created a benchmark FunUI to quantitatively evaluate the fundamental screen understanding ability of MLLMs. Extensive experiments on FunUI and GUI navigation benchmarks consistently validate that screen stream understanding is not only beneficial but also essential for GUI navigation.
+This work presents **[UI-Hawk](https://uihawk.github.io/)**, a visual GUI agent specially designed to processing *screen streams* encountered during GUI navigation. UI-Hawk incorporates a history-aware visual encoder and an efficient resampler to handle the screen sequences. To acquire a better understanding of screen streams, we define four fundamental tasks—UI grounding, UI referring, screen question answering, and screen summarization. We develop an automated data curation method to generate the corresponding training data for UI-Hawk. Along with the efforts above, we have also created a benchmark FunUI to quantitatively evaluate the fundamental screen understanding ability of MLLMs. Extensive experiments on FunUI and GUI navigation benchmarks consistently validate that screen stream understanding is not only beneficial but also essential for GUI navigation.
 
 <div align="center">
     <img src=assets/uihawk_examples.png width=80% />
 </div>
 
 
-
 ## 📣 Update
+
+- **[2024-10-28]** FunUI benchmark is coming soon!
+
+- **[2024-10-10]** Our project page [UI-Hawk](https://uihawk.github.io/) is now visible!
 
 - **[2024-08-30]** We have our paper online, you can access the [preprint](https://www.preprints.org/manuscript/202408.2137/v1) or directly get the PDF at [here](https://github.com/IMNearth/UIHawk/tree/main/assets/UIHawk_preprint.pdf) !
 
