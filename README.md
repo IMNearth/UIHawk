@@ -12,8 +12,8 @@
 <p align="center">
     <a href="https://github.com/IMNearth/UIHawk/tree/main/assets/UIHawk_preprint.pdf"><img src="https://img.shields.io/badge/Paper-PDF-red" /></a>
     <a href="https://www.preprints.org/manuscript/202408.2137/v1"><img src="https://img.shields.io/badge/Paper-Preprint-blue" /></a>
+  	<a href="https://huggingface.co/datasets/Earthiii/FunUI-Benchmark"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000" /></a>
     <img src="https://img.shields.io/github/stars/IMNearth/UIHawk?label=Stars" />
-    <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FIMNearth%2FUIHawk&count_bg=%2319D5DB&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 </p>
 
 --------------
@@ -27,10 +27,9 @@ This work presents **[UI-Hawk](https://uihawk.github.io/)**, a visual GUI agent 
 
 ## 📣 Update
 
-- **[2024-10-28]** FunUI benchmark is coming soon!
-
+- **[2025-10-03]** FunUI benchmark is open sourced at [huggingface](https://huggingface.co/datasets/Earthiii/FunUI-Benchmark)!
+- **[2025-08-20]** Our paper is accpeted as a long paper in the main conference of ***EMNLP 2025***!
 - **[2024-10-10]** Our project page [UI-Hawk](https://uihawk.github.io/) is now visible!
-
 - **[2024-08-30]** We have our paper online, you can access the [preprint](https://www.preprints.org/manuscript/202408.2137/v1) or directly get the PDF at [here](https://github.com/IMNearth/UIHawk/tree/main/assets/UIHawk_preprint.pdf) !
 
 
